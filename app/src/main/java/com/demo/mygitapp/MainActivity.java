@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
         return a - b ;
     }
 
+    void ok(){
+        Log.d("omega" , "ok");
+    }
+
     int f(int a)
     {
         if(a == 1 || a == 2)
