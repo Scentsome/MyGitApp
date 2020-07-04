@@ -7,6 +7,8 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
+    private boolean False;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,5 +38,12 @@ public class MainActivity extends AppCompatActivity {
             return 1;
         else
             return f(a-1) + f(a-2);
+    }
+    
+    int truefalse(int a, int b){
+        if (a==b)
+            return 1;
+        else
+            return 0;
     }
 }
