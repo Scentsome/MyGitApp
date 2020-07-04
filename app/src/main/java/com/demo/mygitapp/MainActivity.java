@@ -28,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
     void hello(){
         Log.d("omega", "I love Michael");
     }
-
+    void hi(){
+        Log.d("omega", "My name is Will");
+    }
     int mul(int a, int b){
         return a*b;
     }
@@ -45,5 +47,8 @@ public class MainActivity extends AppCompatActivity {
             return 1;
         else
             return 0;
+    }
+    void joshua(){
+        Log.d("omega", "I love Michael");
     }
 }
