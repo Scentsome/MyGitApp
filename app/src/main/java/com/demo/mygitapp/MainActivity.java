@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d("OpenCV","Git Demo");
+
     }
 
     int add(int a, int b) {
@@ -69,4 +70,8 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(n);
     }
 
+
+    void ethan(){
+        Log.d("omega","Baron shut up");
+    }
 }
