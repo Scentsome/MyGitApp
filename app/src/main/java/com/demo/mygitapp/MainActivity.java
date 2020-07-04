@@ -46,4 +46,7 @@ public class MainActivity extends AppCompatActivity {
         else
             return 0;
     }
+    void joshua(){
+        Log.d("omega", "I love Michael");
+    }
 }
