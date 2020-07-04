@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             return f(a-1) + f(a-2);
     }
 
-    int truefalse(int a, int b){
+    int truefalseaaron(int a, int b){
         if (a==b)
             return 1;
         else
