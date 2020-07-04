@@ -22,5 +22,8 @@ public class MainActivity extends AppCompatActivity {
     int sub(int a, int b){
         return a - b ;
     }
+    void hello(){
+        Log.d("Da Best Team","ooooof");
+    }
 
 }
