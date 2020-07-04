@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     int z(int a){
         return a;
     }
-    void random (String[]args){
+    public static void random (String[]args){
         int x = Integer.parseInt(args[0]);
         double r = Math.random();
         int n = (int)(x*r);
