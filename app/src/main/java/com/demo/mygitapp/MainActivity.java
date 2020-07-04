@@ -11,16 +11,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("OpenCV","Git Demo");
+        Log.d("OpenCV", "Git Demo");
 
     }
+
 
     int add(int a, int b) {
         return a + b;
     }
 
-    int sub(int a, int b){
-        return a - b ;
+    int sub(int a, int b) {
+        return a - b;
     }
 
+    void hello() {
+        Log.d("omega", "I love Austin");
+    }
 }
