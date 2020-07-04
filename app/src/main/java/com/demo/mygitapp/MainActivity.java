@@ -7,24 +7,43 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
+    private boolean False;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("OpenCV", "Git Demo");
+        Log.d("OpenCV","Git Demo");
 
     }
-
 
     int add(int a, int b) {
         return a + b;
     }
 
-    int sub(int a, int b) {
-        return a - b;
+    int sub(int a, int b){
+        return a - b ;
     }
 
-    void hello() {
-        Log.d("omega", "I love Austin");
+    void hello(){
+        Log.d("omega", "I love Michael");
+    }
+
+    int mul(int a, int b){
+        return a*b;
+    }
+    int f(int a)
+    {
+        if(a == 1 || a == 2)
+            return 1;
+        else
+            return f(a-1) + f(a-2);
+    }
+
+    int truefalse(int a, int b){
+        if (a==b)
+            return 1;
+        else
+            return 0;
     }
 }
