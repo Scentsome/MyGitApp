@@ -45,4 +45,22 @@ public class MainActivity extends AppCompatActivity {
         else
             return f(a-1) + f(a-2);
     }
+
+    int truefalse(int a, int b){
+        if (a==b)
+            return 1;
+        else
+            return 0;
+    }
+
+    void casper (){
+        Log.d("ni", "hao");
+    }
+    void joshua(){
+        Log.d("omega", "I love Michael");
+    }
+
+    int z(int a){
+        return a;
+    }
 }
