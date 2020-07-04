@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("OpenCV","Git Demo");
+        Log.d("OpenCV", "Git Demo");
 
     }
 
@@ -19,8 +19,13 @@ public class MainActivity extends AppCompatActivity {
         return a + b;
     }
 
-    int sub(int a, int b){
-        return a - b ;
+    int sub(int a, int b) {
+        return a - b;
     }
 
+    void Joshua(){
+        Log.d("omega", "I love miachel");
+    }
 }
+
+
