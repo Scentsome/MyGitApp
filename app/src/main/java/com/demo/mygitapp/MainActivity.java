@@ -45,4 +45,8 @@ public class MainActivity extends AppCompatActivity {
     void Joshua(){
         Log.d("omega", "I love miachel");
     }
+
+    int z(int a){
+        return a;
+    }
 }
