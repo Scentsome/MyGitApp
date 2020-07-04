@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
     int add(int a, int b) {
         return a + b;
     }
-
+    void Hi (){
+        Log.d("Omega", "My name is William");
+    }
     int sub(int a, int b){
         return a - b ;
     }
