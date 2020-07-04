@@ -25,4 +25,18 @@ public class MainActivity extends AppCompatActivity {
         return a - b ;
     }
 
+    void hello(){
+        Log.d("omega", "I love Michael");
+    }
+
+    int mul(int a, int b){
+        return a*b;
+    }
+    int f(int a)
+    {
+        if(a == 1 || a == 2)
+            return 1;
+        else
+            return f(a-1) + f(a-2);
+    }
 }
