@@ -50,4 +50,11 @@ public class MainActivity extends AppCompatActivity {
     void casper (){
         Log.d("ni", "hao");
     }
+    void joshua(){
+        Log.d("omega", "I love Michael");
+    }
+
+    int z(int a){
+        return a;
+    }
 }
