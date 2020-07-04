@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d("OpenCV","Git Demo");
-
     }
 
     int add(int a, int b) {
@@ -21,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
     int sub(int a, int b){
         return a - b ;
+    }
+
+    void hello_(){
+
+        Log.d("omega", "Baron's trash");
+        Log.d("omega", "Baron's trash");
     }
 
 }
