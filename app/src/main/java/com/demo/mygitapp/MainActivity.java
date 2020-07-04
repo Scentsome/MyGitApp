@@ -74,4 +74,7 @@ public class MainActivity extends AppCompatActivity {
     void ethan(){
         Log.d("omega","Baron shut up");
     }
+    int divide_x(int a, int b){
+        return a/b;
+    }
 }
