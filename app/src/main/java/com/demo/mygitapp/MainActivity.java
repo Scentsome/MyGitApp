@@ -7,6 +7,8 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
+    private boolean False;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +29,15 @@ public class MainActivity extends AppCompatActivity {
         Log.d("omega" , "ok");
     }
 
+    void hello(){
+        Log.d("omega", "I love Michael");
+    }
+    void hi(){
+        Log.d("omega", "My name is Will");
+    }
+    int mul(int a, int b){
+        return a*b;
+    }
     int f(int a)
     {
         if(a == 1 || a == 2)
