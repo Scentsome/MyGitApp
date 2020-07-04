@@ -46,4 +46,8 @@ public class MainActivity extends AppCompatActivity {
         else
             return 0;
     }
+
+    void casper (){
+        Log.d("ni", "hao");
+    }
 }
