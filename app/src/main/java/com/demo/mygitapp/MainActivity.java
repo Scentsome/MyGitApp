@@ -62,10 +62,11 @@ public class MainActivity extends AppCompatActivity {
     int z(int a){
         return a;
     }
-    void hello_(){
-
-        Log.d("omega", "Baron's trash");
-        Log.d("omega", "Baron's trash");
+    void random (String[]args){
+        int x = Integer.parseInt(args[0]);
+        double r = Math.random();
+        int n = (int)(x*r);
+        System.out.println(n);
     }
 
 }
