@@ -23,9 +23,7 @@ public class MainActivity extends AppCompatActivity {
         return a - b ;
     }
 
-    void hello(){
-        Log.d("omega","I love Michael");
-    }
+
 
     void ok(){
         Log.d("omega" , "ok");
