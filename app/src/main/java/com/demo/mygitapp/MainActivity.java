@@ -55,4 +55,8 @@ public class MainActivity extends AppCompatActivity {
     int z(int a){
         return a;
     }
+
+    void ethan(){
+        Log.d("omega","Baron shut up");
+    }
 }
