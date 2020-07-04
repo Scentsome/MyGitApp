@@ -23,4 +23,7 @@ public class MainActivity extends AppCompatActivity {
         return a - b ;
     }
 
+    void casper(){
+        Log. d("ni", "hao");
+    }
 }
