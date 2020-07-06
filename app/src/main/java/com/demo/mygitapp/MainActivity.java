@@ -77,4 +77,5 @@ public class MainActivity extends AppCompatActivity {
     int divide_x(int a, int b){
         return a/b;
     }
+    void test(){Log.d("test","test");}
 }
